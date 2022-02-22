@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ttc/static/css/main.ff002b30.css",
-    "main.js": "/ttc/static/js/main.0574836c.js",
+    "main.js": "/ttc/static/js/main.ce7a2eda.js",
     "static/media/1.png": "/ttc/static/media/1.027c5fe415e5efb4c043.png",
     "static/media/4.png": "/ttc/static/media/4.db82e303361a653e099f.png",
     "static/media/2.png": "/ttc/static/media/2.02151ad9e09c3bc84d6d.png",
@@ -14,16 +14,17 @@
     "static/media/body-bg.jpeg": "/ttc/static/media/body-bg.bc3f2bdaf8de00b54d5f.jpeg",
     "static/media/poppins-devanagari-400-normal.woff2": "/ttc/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
     "static/media/poppins-devanagari-700-normal.woff2": "/ttc/static/media/poppins-devanagari-700-normal.349ed9fa39221b45ae9a.woff2",
+    "static/media/nav_logo.png": "/ttc/static/media/nav_logo.88c1ed976d50883f7375.png",
     "static/media/poppins-latin-400-normal.woff2": "/ttc/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
     "static/media/poppins-latin-700-normal.woff2": "/ttc/static/media/poppins-latin-700-normal.d86662fe776dae29ea78.woff2",
     "static/media/poppins-latin-ext-400-normal.woff2": "/ttc/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
     "static/media/poppins-latin-ext-700-normal.woff2": "/ttc/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
     "index.html": "/ttc/index.html",
     "main.ff002b30.css.map": "/ttc/static/css/main.ff002b30.css.map",
-    "main.0574836c.js.map": "/ttc/static/js/main.0574836c.js.map"
+    "main.ce7a2eda.js.map": "/ttc/static/js/main.ce7a2eda.js.map"
   },
   "entrypoints": [
     "static/css/main.ff002b30.css",
-    "static/js/main.0574836c.js"
+    "static/js/main.ce7a2eda.js"
   ]
 }
