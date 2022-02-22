@@ -25,7 +25,7 @@ function RoadmapItem({ n, children, icon }) {
 function Roadmap() {
     return (
         <>
-            <Box my={64}>
+            <Box my={64} id="Roadmap">
                 <VStack align="center" spacing={12}>
                     <Box>
                         <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={8} size="4xl">Roadmap</Heading>

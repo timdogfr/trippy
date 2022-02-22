@@ -26,7 +26,7 @@ function TeamMember({ src, name, role }) {
 function Team() {
     return (
         <>
-            <Box mx={[32, 32, 16, 16, 48]}>
+            <Box mx={[32, 32, 16, 16, 48]} id="Team">
                 <Box>
                     <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
                 </Box>

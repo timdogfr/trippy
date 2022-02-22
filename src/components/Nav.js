@@ -1,7 +1,8 @@
 import React from 'react'
-import { Spacer, Stack, Image, Box, IconButton, Link } from '@chakra-ui/react'
+import { Spacer, Stack, Image, Box } from '@chakra-ui/react'
 import logo from '../images/nav_logo.png'
 import NavIcons from './NavIcons'
+import MenuItems from './MenuItems'
 
 function Nav() {
     return (
@@ -12,14 +13,17 @@ function Nav() {
             w="100%"
             bg={"transparent"}
             px={32}
+            pt={5}
         >
             <Stack
                 spacing={0}
                 align="center"
-                justify='stretch'
-                direction={["column", "column", "row", "row"]}
+                justify='space-evenly'
+                direction={["column", "column", "column", "row"]}
             >
-                <Image src={logo} w={["380px", "380px", "240px", "240px"]} />
+                <MenuItems />
+                <Spacer />
+                <Image src={logo} w={["380px", "380px", "300px", "300px"]} />
                 <Spacer />
                 <NavIcons />
 

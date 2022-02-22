@@ -24,7 +24,7 @@ function FAQItem({ question, answer }) {
 
 function FAQ() {
     return (
-        <Box mx={[4, 4, 32, 64]} align="center" my={64}>
+        <Box mx={[4, 4, 32, 64]} align="center" my={64} id="FAQ">
             <Box>
                 <Heading align="center">The</Heading><Heading color="accent" align="center" pb={24} size="4xl">FAQ</Heading>
             </Box>
