@@ -4,7 +4,7 @@ import React from 'react'
 function Story() {
     return (
         <>
-            <Box mx={32}>
+            <Box mx={[4, 4, 16, 32]} my={64}>
                 <Stack
                     direction={["column", "column", "column", "column", "row"]}
                     spacing={12}
@@ -13,7 +13,7 @@ function Story() {
                 >
                     <VStack spacing={8} w="100%">
                         <Box>
-                            <Heading align="center" color="unset">Our</Heading><Heading align="center" pb={8} size="4xl">Story</Heading>
+                            <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={8} size="4xl">Story</Heading>
                         </Box>
                         <Text>
                             The  year  is  2420. Centuries of space-tourism and neglectful waste disposal on Earth have increased carbon emissions and general toxicity to unprecedented and uninhabitable levels. Most humans have retreated to colonies on Mars and other nearby planets. Earth is still a popular stop; unfortunately, it’s mostly for waste disposal. Humans aren’t planning on ruining their adopted home planet a second time.

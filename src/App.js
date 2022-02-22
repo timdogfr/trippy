@@ -9,13 +9,13 @@ import Footer from './components/Footer'
 import FAQ from './components/FAQ'
 
 import bg from './images/body-bg.jpeg'
-import { Stack, Divider } from '@chakra-ui/react';
+import { Box, Divider } from '@chakra-ui/react';
 
 
 function App() {
   return (
     <>
-      <Stack spacing={128} divider={<Divider variant="dashed" />} bgImage={bg}>
+      <Box bgImage={bg} bgAttachment={["unset", "unset", "fixed", "fixed"]}>
         <Home>
           <Nav />
         </Home>
@@ -25,7 +25,7 @@ function App() {
         <Team />
         <FAQ />
         <Footer />
-      </Stack>
+      </Box>
     </>
   );
 }

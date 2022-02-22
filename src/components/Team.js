@@ -29,8 +29,10 @@ function TeamMember({ src, name, role }) {
 function Team() {
     return (
         <>
-            <Box mx={32}>
-                <Heading align="center" color="unset">Our</Heading><Heading align="center" pb={12} size="4xl">Team</Heading>
+            <Box mx={[32, 32, 16, 16, 48]}>
+                <Box>
+                    <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
+                </Box>
                 <SimpleGrid spacing={[12, 24, 32, 48]} columns={["1", "1", "2", "3"]}>
                     <TeamMember name="nishfoshizzle" role="project lead" src={a} />
                     <TeamMember name="amg0405" role="marketing" src={b} />

@@ -7,13 +7,8 @@ import '@fontsource/poppins/400.css'
 
 import { extendTheme, ChakraProvider } from '@chakra-ui/react'
 
-const config = {
-  initialColorMode: 'light',
-  useSystemColorMode: false,
-}
 
 const theme = extendTheme({
-  config,
   fonts: {
     heading: 'Poppins, sans-serif',
     body: 'Poppins, sans-serif',
@@ -25,7 +20,7 @@ const theme = extendTheme({
     Heading: {
       baseStyle: {
         textTransform: "uppercase",
-        color: "#af0"
+        color: "white"
       },
       defaultProps: {
         size: "2xl"
@@ -43,6 +38,11 @@ const theme = extendTheme({
     Icon: {
       baseStyle: {
 
+      }
+    },
+    Text: {
+      baseStyle: {
+        color: "white"
       }
     }
   }

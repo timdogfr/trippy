@@ -11,7 +11,7 @@ function RoadmapItem({ n, children, icon, ...rest }) {
                 </Box>
                 <Box w="100%" rounded="12px" borderWidth="2px" borderColor="white" p={8} bgColor="rgba(0, 0, 0, 0.5)">
                     <Stack direction={["column", "column", "row", "row"]} spacing={8} align="center">
-                        <Heading transform="rotate(-13deg)" mx={8}>{n}</Heading>
+                        <Heading color="accent" transform="rotate(-13deg)" mx={8}>{n}</Heading>
                         <VStack spacing={8} align="left">
                             {children}
                         </VStack>
@@ -26,29 +26,29 @@ function RoadmapItem({ n, children, icon, ...rest }) {
 function Roadmap() {
     return (
         <>
-            <Box>
+            <Box my={64}>
                 <VStack align="center" spacing={12}>
                     <Box>
-                        <Heading align="center" color="unset">Our</Heading><Heading align="center" pb={8} size="4xl">Roadmap</Heading>
+                        <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={8} size="4xl">Roadmap</Heading>
                     </Box>
-                    <RoadmapItem n="10%" icon={<SettingsIcon fontSize="32px" />}>
+                    <RoadmapItem n="10%" icon={<SettingsIcon color="white" fontSize="32px" />}>
                         <Text><Tag>1</Tag>{' '}Start of Paid collabs</Text>
                     </RoadmapItem>
-                    <RoadmapItem n="25%" icon={<CalendarIcon fontSize="32px" />}>
+                    <RoadmapItem n="25%" icon={<CalendarIcon color="white" fontSize="32px" />}>
                         <Text><Tag>1</Tag>{' '}2 honorary 1/1s in a different collection and 2 x $500 will also be raffled amongst the holders</Text>
                         <Text><Tag>2</Tag>{' '}2x $500 to be raffled</Text>
                     </RoadmapItem>
-                    <RoadmapItem n="50%" icon={<TimeIcon fontSize="32px" />}>
+                    <RoadmapItem n="50%" icon={<TimeIcon color="white" fontSize="32px" />}>
                         <Text><Tag>1</Tag>{' '}10% of mints go into saving the turtles and ocean clean up. (Organizations will be voted by the community)</Text>
                         <Text><Tag>2</Tag>{' '}4 honorary 1/1s in a different collection and 4x $750 will also be raffled amongst the holders.</Text>
                         <Text><Tag>3</Tag>{' '}Celebrity and influencer marketing</Text>
                         <Text><Tag>4</Tag>{' '}Paid advertising with social media pages</Text>
                     </RoadmapItem>
-                    <RoadmapItem n="75%" icon={<StarIcon fontSize="32px" />}>
+                    <RoadmapItem n="75%" icon={<StarIcon color="white" fontSize="32px" />}>
                         <Text><Tag>1</Tag>{' '}Merchandising design will be dropped and community will be able to send in their ideas & designs too</Text>
                         <Text><Tag>2</Tag>{' '}Eight honorary 1/1s in a different collection and 4x $1000 will be raffled amongst the holders</Text>
                     </RoadmapItem>
-                    <RoadmapItem n="100%" icon={<CheckCircleIcon fontSize="32px" />}>
+                    <RoadmapItem n="100%" icon={<CheckCircleIcon color="white" fontSize="32px" />}>
                         <Text><Tag>1</Tag>{' '}To commemorate 100% sell out, we will donate another 10% to saving the turtles and Ocean Clean-up initiatives based on the community's vote</Text>
                         <Text><Tag>2</Tag>{' '}Ten honorary 1/1s in a different collection and 5x $1500 will be raffled amongst the holders</Text>
                         <Text><Tag>3</Tag>{' '}Monthly giveaways for holders</Text>

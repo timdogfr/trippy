@@ -6,8 +6,8 @@ function FAQItem({ question, answer }) {
         <>
             <AccordionItem>
                 <h2>
-                    <AccordionButton>
-                        <Box py={6} flex='1' textAlign='left'>
+                    <AccordionButton _focus={{ outline: 0 }}>
+                        <Box py={6} flex='1' textAlign='left' color="white">
                             {question}
                         </Box>
                         <AccordionIcon />
@@ -24,11 +24,11 @@ function FAQItem({ question, answer }) {
 
 function FAQ() {
     return (
-        <Box mx={32} align="center">
+        <Box mx={[4, 4, 32, 64]} align="center" my={64}>
             <Box>
-                <Heading align="center" color="unset">The</Heading><Heading align="center" pb={24} size="4xl">FAQ</Heading>
+                <Heading align="center">The</Heading><Heading color="accent" align="center" pb={24} size="4xl">FAQ</Heading>
             </Box>
-            <Accordion w={["95%", "90%", "85%", "70%"]} allowToggle>
+            <Accordion w="100%" allowToggle>
                 <FAQItem question="How much is whitelist mint?" answer="Presale mint price is 20 matic" />
                 <FAQItem question="How much is public mint?" answer="Public Sale mint price is 30 matic" />
                 <FAQItem question="How many can a whitelisted member mint?" answer="Up to 5 NFT's per wallet" />
