@@ -2,7 +2,6 @@ import React from 'react'
 import { Stack, Link, IconButton } from '@chakra-ui/react'
 import { FaDiscord, FaTwitter, FaInstagram, FaShip } from 'react-icons/fa';
 
-
 function MenuIcon({ name, icon, to, ...rest }) {
     return (
         <>

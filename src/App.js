@@ -7,7 +7,6 @@ import Welcome from './components/Welcome';
 import Team from './components/Team';
 import Footer from './components/Footer'
 import FAQ from './components/FAQ'
-
 import bg from './images/body-bg.jpeg'
 import { Box, Divider } from '@chakra-ui/react';
 

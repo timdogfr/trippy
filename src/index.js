@@ -35,11 +35,6 @@ const theme = extendTheme({
         colorScheme: 'green'
       }
     },
-    Icon: {
-      baseStyle: {
-
-      }
-    },
     Text: {
       baseStyle: {
         color: "white"

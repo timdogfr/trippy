@@ -1,14 +1,11 @@
 import React from 'react'
 import { Box, VStack, Image, Heading, SimpleGrid, Text } from '@chakra-ui/react'
-
 import a from '../images/members/1.png'
 import b from '../images/members/2.png'
 import c from '../images/members/3.png'
 import d from '../images/members/4.png'
 import e from '../images/members/5.png'
 import f from '../images/members/6.png'
-
-
 
 function TeamMember({ src, name, role }) {
     return (

@@ -1,12 +1,7 @@
-import { Spacer, Stack, Image, Box, IconButton, Link } from '@chakra-ui/react'
-
-
-
 import React from 'react'
+import { Spacer, Stack, Image, Box, IconButton, Link } from '@chakra-ui/react'
 import logo from '../images/nav_logo.png'
-
 import NavIcons from './NavIcons'
-
 
 function Nav() {
     return (

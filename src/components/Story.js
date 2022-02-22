@@ -1,5 +1,5 @@
-import { Box, Stack, Image, VStack, Heading, Text, Spacer } from '@chakra-ui/react'
 import React from 'react'
+import { Box, Stack, Image, VStack, Heading, Text, Spacer } from '@chakra-ui/react'
 
 function Story() {
     return (

@@ -1,8 +1,8 @@
+import React from 'react'
 import { Box, Heading, Text, VStack, Tag, Stack, HStack } from '@chakra-ui/react'
 import { SettingsIcon, CalendarIcon, TimeIcon, StarIcon, CheckCircleIcon } from '@chakra-ui/icons'
-import React from 'react'
 
-function RoadmapItem({ n, children, icon, ...rest }) {
+function RoadmapItem({ n, children, icon }) {
     return (
         <>
             <HStack w={["95%", "90%", "85%", "65%"]} spacing={8}>
@@ -21,7 +21,6 @@ function RoadmapItem({ n, children, icon, ...rest }) {
         </>
     )
 }
-
 
 function Roadmap() {
     return (
