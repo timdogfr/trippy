@@ -8,19 +8,24 @@ import Team from './components/Team';
 import Footer from './components/Footer'
 import FAQ from './components/FAQ'
 import bg from './images/body-bg.jpeg'
+
+import Carousel from './components/Carousel';
+
 import { Box } from '@chakra-ui/react';
+
 
 
 function App() {
   return (
     <>
-      <Box bgImage={bg} bgAttachment={["unset", "unset", "fixed", "fixed"]}>
+      <Box bgImage={bg} bgAttachment={["unset", "unset", "fixed", "fixed"]} overflowX='hidden'>
         <Home>
           <Nav />
         </Home>
         <Welcome />
-        <Roadmap />
+        <Carousel />
         <Story />
+        <Roadmap />
         <Team />
         <FAQ />
         <Footer />

@@ -6,7 +6,7 @@ function Story() {
         <>
             <Box mx={[4, 4, 16, 32]} my={64} id="Story">
                 <Box>
-                    <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={8} size="4xl">Story</Heading>
+                    <Heading align="center">The</Heading><Heading color="accent" align="center" pb={8} size="4xl">Story</Heading>
                 </Box>
                 <Stack
                     direction={["column", "column", "column", "column", "row"]}

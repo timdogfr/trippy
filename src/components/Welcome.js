@@ -1,7 +1,7 @@
 import React from 'react'
 import { Heading, VStack, Text, Box, HStack, Button, Image, Link, Stack } from '@chakra-ui/react'
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
-import L from '../images/samples/1.png'
+import L from '../images/samples/15.png'
 import R from '../images/samples/2.png'
 
 function Welcome() {

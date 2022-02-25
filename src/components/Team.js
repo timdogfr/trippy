@@ -7,6 +7,8 @@ import d from '../images/members/4.png'
 import e from '../images/members/5.png'
 import f from '../images/members/6.png'
 
+
+
 function TeamMember({ src, name, role }) {
     return (
         <>
@@ -26,11 +28,11 @@ function TeamMember({ src, name, role }) {
 function Team() {
     return (
         <>
-            <Box mx={[32, 32, 16, 16, 48]} id="Team">
+            <Box mx={[32, 32, 16, 16, 32]} id="Team">
                 <Box>
                     <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
                 </Box>
-                <SimpleGrid spacing={[12, 24, 32, 48]} columns={["1", "1", "2", "3"]}>
+                <SimpleGrid spacing="10vw" columns={["1", "1", "2", "3"]} rowGap={8}>
                     <TeamMember name="nishfoshizzle" role="project lead" src={a} />
                     <TeamMember name="amg0405" role="marketing" src={b} />
                     <TeamMember name="duds" role="artist" src={c} />
