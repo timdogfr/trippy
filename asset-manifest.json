@@ -1,30 +1,43 @@
 {
   "files": {
-    "main.css": "/ttc/static/css/main.ff002b30.css",
-    "main.js": "/ttc/static/js/main.f3e128ef.js",
-    "static/media/1.png": "/ttc/static/media/1.5a08d5ec136879f19b90.png",
+    "main.css": "/ttc/static/css/main.bb0f78dd.css",
+    "main.js": "/ttc/static/js/main.b6c33d5e.js",
+    "static/media/12.png": "/ttc/static/media/12.d35ca90f06ecc0d3ac01.png",
+    "static/media/1.png": "/ttc/static/media/1.ea3232152c28f44bc352.png",
     "static/media/banner.jpg": "/ttc/static/media/banner.40def868aba895e65b6a.jpg",
     "static/media/4.png": "/ttc/static/media/4.db82e303361a653e099f.png",
+    "static/media/8.png": "/ttc/static/media/8.fc2726d2edb0376c6dbd.png",
     "static/media/2.png": "/ttc/static/media/2.b652882428cc72f69df0.png",
     "static/media/6.png": "/ttc/static/media/6.04aba761a043bf67f0c6.png",
+    "static/media/15.png": "/ttc/static/media/15.5a08d5ec136879f19b90.png",
     "static/media/5.png": "/ttc/static/media/5.e5a346a93eadec941b0d.png",
     "static/media/3.png": "/ttc/static/media/3.eb96413d2d9c0079908e.png",
+    "static/media/14.png": "/ttc/static/media/14.42cc115e01b9b2422814.png",
+    "static/media/10.png": "/ttc/static/media/10.94b4a6352d4b38ec4965.png",
+    "static/media/17.png": "/ttc/static/media/17.0bd1404c2ba360df2843.png",
+    "static/media/13.png": "/ttc/static/media/13.d7d5d3eee8bac2d02ebf.png",
+    "static/media/11.png": "/ttc/static/media/11.77cea8a501ea19367d79.png",
+    "static/media/7.jpg": "/ttc/static/media/7.78820e8600cb2c05b30a.jpg",
+    "static/media/9.png": "/ttc/static/media/9.abbefa3c96dfef68a96f.png",
     "static/media/poppins-all-400-normal.woff": "/ttc/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
     "static/media/poppins-all-700-normal.woff": "/ttc/static/media/poppins-all-700-normal.34a71a4b9d011ddf66e9.woff",
     "static/media/body-bg.jpeg": "/ttc/static/media/body-bg.bc3f2bdaf8de00b54d5f.jpeg",
     "static/media/poppins-devanagari-400-normal.woff2": "/ttc/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
     "static/media/poppins-devanagari-700-normal.woff2": "/ttc/static/media/poppins-devanagari-700-normal.349ed9fa39221b45ae9a.woff2",
     "static/media/nav_logo.png": "/ttc/static/media/nav_logo.88c1ed976d50883f7375.png",
+    "static/media/revicons.eot": "/ttc/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/ttc/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/poppins-latin-400-normal.woff2": "/ttc/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
     "static/media/poppins-latin-700-normal.woff2": "/ttc/static/media/poppins-latin-700-normal.d86662fe776dae29ea78.woff2",
+    "static/media/revicons.woff": "/ttc/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/poppins-latin-ext-400-normal.woff2": "/ttc/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
     "static/media/poppins-latin-ext-700-normal.woff2": "/ttc/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
     "index.html": "/ttc/index.html",
-    "main.ff002b30.css.map": "/ttc/static/css/main.ff002b30.css.map",
-    "main.f3e128ef.js.map": "/ttc/static/js/main.f3e128ef.js.map"
+    "main.bb0f78dd.css.map": "/ttc/static/css/main.bb0f78dd.css.map",
+    "main.b6c33d5e.js.map": "/ttc/static/js/main.b6c33d5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff002b30.css",
-    "static/js/main.f3e128ef.js"
+    "static/css/main.bb0f78dd.css",
+    "static/js/main.b6c33d5e.js"
   ]
 }
