@@ -1,11 +1,14 @@
 import React from 'react'
 import { Box, VStack, Image, Heading, SimpleGrid, Text } from '@chakra-ui/react'
-import a from '../images/members/1.png'
-import b from '../images/members/2.png'
-import c from '../images/members/3.png'
-import d from '../images/members/4.png'
-import e from '../images/members/5.png'
-import f from '../images/members/6.png'
+
+
+import a from '../images/team/Nishfoshizzle.png'
+import b from '../images/team/AMG0405.png'
+import c from '../images/team/Duds.png'
+import d from '../images/team/Gau_Aadmi.jpg'
+import e from '../images/team/Mr_Mohawk.png'
+import f from '../images/team/TCVDH.png'
+import g from '../images/team/Wibbo.png'
 
 
 
@@ -33,12 +36,13 @@ function Team() {
                     <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
                 </Box>
                 <SimpleGrid spacing="10vw" columns={["1", "1", "2", "3"]} rowGap={8}>
-                    <TeamMember name="nishfoshizzle" role="project lead" src={a} />
-                    <TeamMember name="amg0405" role="marketing" src={b} />
-                    <TeamMember name="duds" role="artist" src={c} />
-                    <TeamMember name="gau aadmi" role="pr / marketing" src={d} />
-                    <TeamMember name="mr mohawk" role="project consultant" src={e} />
-                    <TeamMember name="tvhd" role="blockchain developer" src={f} />
+                    <TeamMember name="Nishfoshizzle" role="project lead" src={a} />
+                    <TeamMember name="AMG0405" role="marketing" src={b} />
+                    <TeamMember name="Duds" role="artist" src={c} />
+                    <TeamMember name="Gau Aadmi" role="pr / marketing" src={d} />
+                    <TeamMember name="Mr Mohawk" role="project consultant" src={e} />
+                    <TeamMember name="TCVDH" role="blockchain developer" src={f} />
+                    <TeamMember name="Wibbo" role="Graphic Designer" src={g} />
                 </SimpleGrid>
             </Box>
         </>
