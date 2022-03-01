@@ -10,7 +10,8 @@ function Footer() {
                 spacing={12}
                 align="center"
             >
-                <NavIcons><Image src={logo} h="140px" /></NavIcons>
+                <Image src={logo} h="140px" />
+                <NavIcons />
 
                 <Text>
                     © 2022 TTC. All right reserved.

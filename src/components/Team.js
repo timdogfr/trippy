@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, VStack, Image, Heading, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, VStack, Image, Heading, SimpleGrid, Text, Center } from '@chakra-ui/react'
 
 
 import a from '../images/team/Nishfoshizzle.png'
@@ -31,20 +31,23 @@ function TeamMember({ src, name, role }) {
 function Team() {
     return (
         <>
-            <Box mx={[32, 32, 16, 16, 32]} id="Team">
-                <Box>
-                    <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
-                </Box>
-                <SimpleGrid spacing="10vw" columns={["1", "1", "2", "3"]} rowGap={8}>
-                    <TeamMember name="Nishfoshizzle" role="project lead" src={a} />
-                    <TeamMember name="AMG0405" role="marketing" src={b} />
-                    <TeamMember name="Duds" role="artist" src={c} />
-                    <TeamMember name="Gau Aadmi" role="pr / marketing" src={d} />
-                    <TeamMember name="Mr Mohawk" role="project consultant" src={e} />
-                    <TeamMember name="TCVDH" role="blockchain developer" src={f} />
-                    <TeamMember name="Wibbo" role="Graphic Designer" src={g} />
-                </SimpleGrid>
+            <Box>
+                <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
             </Box>
+            <Box mx={[32, 32, 16, 16, 32]} id="Team">
+                <Center>
+                    <SimpleGrid spacing="6vw" columns={["1", "2", "3", "4"]} rowGap={8} >
+                        <TeamMember name="Nishfoshizzle" role="project lead" src={a} />
+                        <TeamMember name="AMG0405" role="marketing" src={b} />
+                        <TeamMember name="Duds" role="artist" src={c} />
+                        <TeamMember name="Gau Aadmi" role="pr / marketing" src={d} />
+                        <TeamMember name="Mr Mohawk" role="project consultant" src={e} />
+                        <TeamMember name="TCVDH" role="blockchain developer" src={f} />
+                        <TeamMember name="Wibbo" role="Graphic Designer" src={g} />
+                    </SimpleGrid>
+                </Center>
+            </Box>
+
         </>
     )
 }

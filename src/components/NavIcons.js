@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stack, Link, IconButton } from '@chakra-ui/react'
-import { FaDiscord, FaTwitter, FaInstagram, FaShip } from 'react-icons/fa';
+import { FaDiscord, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { GiSailboat } from 'react-icons/gi'
 
 function MenuIcon({ name, icon, to, ...rest }) {
     return (
@@ -24,15 +25,14 @@ function MenuIcon({ name, icon, to, ...rest }) {
     )
 }
 
-function NavIcons({ children }) {
+function NavIcons() {
     return (
         <>
-            <Stack spacing={5} direction={["column", "column", "column", "row"]} align="center">
-                {children}
+            <Stack spacing={5} direction={"row"} pt={[16, 16, 0]} align="center">
                 <MenuIcon name="Discord" to="https://discord.com/invite/TrippyTurtlesClub" icon={<FaDiscord />} />
                 <MenuIcon name="Twitter" to="https://twitter.com/_trippyturtles_" icon={<FaTwitter />} />
                 <MenuIcon name="Instagram" to="https://www.instagram.com/trippyturtlesclub" icon={<FaInstagram />} />
-                <MenuIcon name="OpenSea" to="" icon={<FaShip />} disabled />
+                <MenuIcon name="OpenSea" icon={<GiSailboat />} disabled />
             </Stack>
         </>
     )

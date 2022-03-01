@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Heading, Text, VStack, Stack, HStack } from '@chakra-ui/react'
 import { SettingsIcon, CalendarIcon, TimeIcon, StarIcon, CheckCircleIcon } from '@chakra-ui/icons'
 
-function RoadmapItem({ n, children, icon }) {
+function RoadmapItem({ n, children, icon, ...rest }) {
     return (
         <>
             <HStack w={["95%", "90%", "85%", "65%"]} spacing={8}>
@@ -11,7 +11,7 @@ function RoadmapItem({ n, children, icon }) {
                 </Box>
                 <Box w="100%" rounded="12px" borderWidth="2px" borderColor="white" p={8} bgColor="rgba(0, 0, 0, 0.5)">
                     <Stack direction={["column", "column", "row", "row"]} spacing={8} align="center">
-                        <Heading color="accent" transform="rotate(-13deg)" mx={8}>{n}</Heading>
+                        <Heading color="accent" transform="rotate(-13deg)" mx={8} {...rest}>{n}</Heading>
                         <VStack spacing={8} align="left">
                             {children}
                         </VStack>
@@ -30,7 +30,7 @@ function Roadmap() {
                     <Box>
                         <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={8} size="4xl">Roadmap</Heading>
                     </Box>
-                    <RoadmapItem n="10%" icon={<SettingsIcon color="white" fontSize="32px" />}>
+                    <RoadmapItem n='10%' icon={<SettingsIcon color="white" fontSize="32px" />}>
                         <Text>Start of Paid collabs</Text>
                     </RoadmapItem>
                     <RoadmapItem n="25%" icon={<CalendarIcon color="white" fontSize="32px" />}>
@@ -43,11 +43,11 @@ function Roadmap() {
                         <Text>Celebrity and influencer marketing</Text>
                         <Text>Paid advertising with social media pages</Text>
                     </RoadmapItem>
-                    <RoadmapItem n="75%" icon={<StarIcon color="white" fontSize="32px" />}>
+                    <RoadmapItem n="75%" icon={<StarIcon color="white" fontSize="32px" />} >
                         <Text>Merchandising design will be dropped and community will be able to send in their ideas & designs too</Text>
                         <Text>Eight honorary 1/1s in a different collection and 4x $1000 will be raffled amongst the holders</Text>
                     </RoadmapItem>
-                    <RoadmapItem n="100%" icon={<CheckCircleIcon color="white" fontSize="32px" />}>
+                    <RoadmapItem n="100%" icon={<CheckCircleIcon color="white" fontSize="32px" />} mr={3} >
                         <Text>To commemorate 100% sell out, we will donate another 10% to saving the turtles and Ocean Clean-up initiatives based on the community's vote</Text>
                         <Text>Ten honorary 1/1s in a different collection and 5x $1500 will be raffled amongst the holders</Text>
                         <Text>Monthly giveaways for holders</Text>
