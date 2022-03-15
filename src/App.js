@@ -7,6 +7,7 @@ import Welcome from './components/Welcome';
 import Team from './components/Team';
 import Footer from './components/Footer'
 import FAQ from './components/FAQ'
+import SeenOn from './components/SeenOn'
 import bg from './images/body-bg.jpeg'
 
 import Carousel from './components/Carousel';
@@ -27,6 +28,7 @@ function App() {
         <Story />
         <Roadmap />
         <Team />
+        <SeenOn />
         <FAQ />
         <Footer />
       </Box>

@@ -30,7 +30,7 @@ function TeamMember({ src, name, role }) {
 
 function Team() {
     return (
-        <>
+        <Box pb={32}>
             <Box>
                 <Heading align="center">Our</Heading><Heading color="accent" align="center" pb={12} size="4xl">Team</Heading>
             </Box>
@@ -48,7 +48,7 @@ function Team() {
                 </Center>
             </Box>
 
-        </>
+        </Box>
     )
 }
 
