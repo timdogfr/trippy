@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7b18da53.css",
-    "main.js": "/static/js/main.de8cf256.js",
+    "main.js": "/static/js/main.a4ce592c.js",
     "static/media/12.png": "/static/media/12.d35ca90f06ecc0d3ac01.png",
     "static/media/1.png": "/static/media/1.ea3232152c28f44bc352.png",
     "static/media/banner.jpg": "/static/media/banner.40def868aba895e65b6a.jpg",
@@ -26,6 +26,7 @@
     "static/media/11.png": "/static/media/11.77cea8a501ea19367d79.png",
     "static/media/7.jpg": "/static/media/7.78820e8600cb2c05b30a.jpg",
     "static/media/9.png": "/static/media/9.abbefa3c96dfef68a96f.png",
+    "static/media/nft-calendar.png": "/static/media/nft-calendar.c5ef49e5cc40c9210b4a.png",
     "static/media/poppins-all-400-normal.woff": "/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
     "static/media/poppins-all-700-normal.woff": "/static/media/poppins-all-700-normal.34a71a4b9d011ddf66e9.woff",
     "static/media/body-bg.jpeg": "/static/media/body-bg.bc3f2bdaf8de00b54d5f.jpeg",
@@ -41,10 +42,10 @@
     "static/media/poppins-latin-ext-700-normal.woff2": "/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
     "index.html": "/index.html",
     "main.7b18da53.css.map": "/static/css/main.7b18da53.css.map",
-    "main.de8cf256.js.map": "/static/js/main.de8cf256.js.map"
+    "main.a4ce592c.js.map": "/static/js/main.a4ce592c.js.map"
   },
   "entrypoints": [
     "static/css/main.7b18da53.css",
-    "static/js/main.de8cf256.js"
+    "static/js/main.a4ce592c.js"
   ]
 }
