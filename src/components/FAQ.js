@@ -29,6 +29,8 @@ function FAQ() {
                 <Heading align="center">The</Heading><Heading color="accent" align="center" pb={24} size="4xl">FAQ</Heading>
             </Box>
             <Accordion w="100%" allowToggle>
+                <FAQItem question="When is presale mint?" answer="March 31st" />
+                <FAQItem question="When is public mint?" answer="April 1st" />
                 <FAQItem question="How much is whitelist mint?" answer="Presale mint price is 20 matic" />
                 <FAQItem question="How much is public mint?" answer="Public Sale mint price is 30 matic" />
                 <FAQItem question="How many can a whitelisted member mint?" answer="Up to 5 NFT's per wallet" />
