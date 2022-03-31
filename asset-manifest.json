@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7b18da53.css",
-    "main.js": "/static/js/main.56168732.js",
+    "main.js": "/static/js/main.26a187d1.js",
     "static/media/12.png": "/static/media/12.d35ca90f06ecc0d3ac01.png",
     "static/media/1.png": "/static/media/1.ea3232152c28f44bc352.png",
     "static/media/banner.jpg": "/static/media/banner.40def868aba895e65b6a.jpg",
     "static/media/4.png": "/static/media/4.db82e303361a653e099f.png",
     "static/media/Wibbo.png": "/static/media/Wibbo.136a1895a39d652a75e2.png",
+    "static/media/thabo.png": "/static/media/thabo.5638f1179769f5509f96.png",
     "static/media/8.png": "/static/media/8.fc2726d2edb0376c6dbd.png",
     "static/media/2.png": "/static/media/2.b652882428cc72f69df0.png",
     "static/media/AMG0405.png": "/static/media/AMG0405.51c10db8986c24e7ff0d.png",
@@ -42,10 +43,10 @@
     "static/media/poppins-latin-ext-700-normal.woff2": "/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
     "index.html": "/index.html",
     "main.7b18da53.css.map": "/static/css/main.7b18da53.css.map",
-    "main.56168732.js.map": "/static/js/main.56168732.js.map"
+    "main.26a187d1.js.map": "/static/js/main.26a187d1.js.map"
   },
   "entrypoints": [
     "static/css/main.7b18da53.css",
-    "static/js/main.56168732.js"
+    "static/js/main.26a187d1.js"
   ]
 }
