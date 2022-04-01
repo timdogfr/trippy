@@ -9,6 +9,7 @@ import d from '../images/team/Gau_Aadmi.jpg'
 import e from '../images/team/Mr_Mohawk.png'
 import f from '../images/team/TCVDH.png'
 import g from '../images/team/Wibbo.png'
+import h from '../images/team/thabo.png'
 
 
 
@@ -42,6 +43,7 @@ function Team() {
                         <TeamMember name="Duds" role="artist" src={c} />
                         <TeamMember name="Gau Aadmi" role="pr / marketing" src={d} />
                         <TeamMember name="Mr Mohawk" role="project consultant" src={e} />
+                        <TeamMember name="KingThabo" role="Marketing" src={h} />
                         <TeamMember name="TCVDH" role="blockchain developer" src={f} />
                         <TeamMember name="Wibbo" role="Graphic Designer" src={g} />
                     </SimpleGrid>

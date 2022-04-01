@@ -1,7 +1,8 @@
 import React from 'react'
-import { Box, Heading, Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel } from '@chakra-ui/react'
+import { Box, Heading, Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Text } from '@chakra-ui/react'
+import { ArrowForwardIcon } from '@chakra-ui/icons'
 
-function FAQItem({ question, answer }) {
+function FAQItem({ question, children }) {
     return (
         <>
             <AccordionItem>
@@ -13,8 +14,8 @@ function FAQItem({ question, answer }) {
                         <AccordionIcon />
                     </AccordionButton>
                 </h2>
-                <AccordionPanel py={8} color="accent">
-                    {answer}
+                <AccordionPanel py={8} color="accent" align='left'>
+                    {children}
                 </AccordionPanel>
             </AccordionItem>
         </>
@@ -29,12 +30,21 @@ function FAQ() {
                 <Heading align="center">The</Heading><Heading color="accent" align="center" pb={24} size="4xl">FAQ</Heading>
             </Box>
             <Accordion w="100%" allowToggle>
-                <FAQItem question="When is presale mint?" answer="March 31st" />
-                <FAQItem question="When is public mint?" answer="April 1st" />
-                <FAQItem question="How much is whitelist mint?" answer="Presale mint price is 20 matic" />
-                <FAQItem question="How much is public mint?" answer="Public Sale mint price is 30 matic" />
-                <FAQItem question="How many can a whitelisted member mint?" answer="Up to 5 NFT's per wallet" />
-                <FAQItem question="How many can a non-whitelisted member mint?" answer="Up to 10 NFT's per transaction" />
+                <FAQItem question="When is presale mint?">
+                    <Text color="accent">March 31st</Text>
+                </FAQItem>
+                <FAQItem question="When is public mint?">
+                    <Text color="accent">April 1st</Text>
+                </FAQItem>
+                <FAQItem question="How much is mint?">
+                    <Text color="accent">• Phase 0 <ArrowForwardIcon mx={4} /> 0-200 <ArrowForwardIcon mx={4} /> for giveaway & team</Text>
+                    <Text color="accent">• Phase 1 <ArrowForwardIcon mx={4} /> 201-700 <ArrowForwardIcon mx={4} /> free mint - (submission of wallet address, maximum of 2 free mints per submitted wallet)</Text>
+                    <Text color="accent">• Phase 2 <ArrowForwardIcon mx={4} /> 701-1200 <ArrowForwardIcon mx={4} /> 10 matic (unlimited mint, max of 5 mints per transaction)</Text>
+                    <Text color="accent">• Phase 3 <ArrowForwardIcon mx={4} /> 1201 - 2500 <ArrowForwardIcon mx={4} /> 15 matic (unlimited mint, max of 5 mints per transaction)</Text>
+                    <Text color="accent">• Phase 4 <ArrowForwardIcon mx={4} /> 2501 - 7500 <ArrowForwardIcon mx={4} /> 20 matic (unlimited mint, max of 5 mints per transaction)</Text>
+                    <Text color="accent">• Phase 5 <ArrowForwardIcon mx={4} /> 7501 - 10000 <ArrowForwardIcon mx={4} /> 25 matic (unlimited mint, max of 5 mints per transaction)</Text>
+
+                </FAQItem>
             </Accordion>
         </Box >
     )
