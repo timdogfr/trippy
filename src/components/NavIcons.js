@@ -32,7 +32,7 @@ function NavIcons() {
                 <MenuIcon name="Discord" to="https://discord.com/invite/TrippyTurtlesClub" icon={<FaDiscord />} />
                 <MenuIcon name="Twitter" to="https://twitter.com/_trippyturtles_" icon={<FaTwitter />} />
                 <MenuIcon name="Instagram" to="https://www.instagram.com/trippyturtlesclub" icon={<FaInstagram />} />
-                <MenuIcon name="OpenSea" icon={<GiSailboat />} disabled />
+                <MenuIcon name="OpenSea" to="https://opensea.io/collection/trippyturtlesclubnft" icon={<GiSailboat />} />
             </Stack>
         </>
     )
