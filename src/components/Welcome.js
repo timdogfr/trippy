@@ -11,7 +11,7 @@ function Welcome() {
                     <Image src={L} w={[0, 0, 0, 48, 80]} display={["none", "none", "none", "block"]} rounded="100%" />
                     <VStack spacing={16}>
                         <Box>
-                            <Heading align="center">Welcome to the</Heading><Heading color="accent" align="center" size="4xl">The Funky Horse Pub</Heading>
+                            <Heading align="center">Welcome to</Heading><Heading color="accent" align="center" size="4xl">The Funky Horse Pub</Heading>
                         </Box>
                         <Text align="center" w={["80%", "75%", "70%", "70%"]} fontSize={24}>Join  the  Funky  Horse  Pub  in  the  NFT  space! We’re  a  community  of  10,000 hand-drawn Funkys  stored  as  ERC-721  tokens  on the Avalanche  network.</Text>
 
