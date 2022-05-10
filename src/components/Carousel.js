@@ -55,7 +55,7 @@ const CC = () => {
     };
     return (
         <>
-            <Box transform="rotate(-5deg)" width="105%">
+            <Box transform= width="105%">
                 <Box align="center" my={4}>
                     <Carousel
                         swipeable={false}
@@ -63,7 +63,7 @@ const CC = () => {
                         responsive={responsive}
                         infinite={true}
                         autoPlay={true}
-                        autoPlaySpeed={1250}
+                        autoPlaySpeed={2000}
                         arrows={false}
                         showDots={false}
                         centerMode={true}
@@ -88,7 +88,7 @@ const CC = () => {
                         responsive={responsive}
                         infinite={true}
                         autoPlay={true}
-                        autoPlaySpeed={1250}
+                        autoPlaySpeed={2000}
                         arrows={false}
                         showDots={false}
                         centerMode={true}
