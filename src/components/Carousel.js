@@ -55,7 +55,7 @@ const CC = () => {
     };
     return (
         <>
-            <Box transform= width="105%">
+            <Box transform="rotate(-0deg)" width="105%">
                 <Box align="center" my={4}>
                     <Carousel
                         swipeable={false}
