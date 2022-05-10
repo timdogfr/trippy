@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from '@chakra-ui/react'
-import banner from '../images/banner.jpg'
+import banner from '../images/banner.mp4'
 
 function Home({ children }) {
     return (
