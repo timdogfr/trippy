@@ -41,7 +41,7 @@ function Welcome() {
                             </Link>
                         </Stack>
                     </VStack>
-                    <Image src={R} style w={[0, 0, 0, 48, 80]} display={["none", "none", "none", "block"]} rounded="100%" />
+                    <Image src={R} w={[0, 0, 0, 48, 80]} display={["none", "none", "none", "block"]} rounded="100%" />
                 </HStack>
             </Box >
         </>
