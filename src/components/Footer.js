@@ -14,7 +14,7 @@ function Footer() {
                 <NavIcons />
 
                 <Text>
-                    © 2022 TTC. All right reserved.
+                    © 2022 The Funky Horse Pub ( All right reserved )
                 </Text>
             </VStack>
         </Box>
