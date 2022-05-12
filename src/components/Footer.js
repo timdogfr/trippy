@@ -10,7 +10,7 @@ function Footer() {
                 spacing={12}
                 align="center"
             >
-                <Image src={logo} h="140px" />
+                <Image src={logo} h="77px" />
                 <NavIcons />
 
                 <Text>
